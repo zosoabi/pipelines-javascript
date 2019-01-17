@@ -5,7 +5,7 @@
 #  
 variables:
   imageName: 'nodejssample:$(Build.BuildId)'
-  imageLast: 'nodejssample:last'
+  imageLast: 'nodejssample:latest'
   # define two more variables dockerId and dockerPassword in the build pipeline in UI
 
 steps:
